@@ -1,0 +1,40 @@
+body {
+    background-color: bisque;
+    font-family: Verdana, serif;
+    width: 800px;    
+}
+
+h1,h3 {
+    font-style: italic;
+}
+
+img {
+    border: 3px solid rgb(247, 0, 0);
+}
+.description_container img{
+    float: left;
+    margin-right: 16px
+    overflow: hidden;
+    }
+
+.description_header{
+
+}
+.description_body{
+}
+
+.ingredient_header{
+    background-color: goldenrod;
+    }
+.ingredient_body{
+    background-color: rgba(255, 209, 91, 0.622);
+    margin-top: -19px
+    }
+
+.directions_header{
+    background-color: rgb(255, 122, 107);
+}
+.directions_body{
+    background-color: rgba(255, 146, 134, 0.67);;
+    margin-top: -19px
+}
