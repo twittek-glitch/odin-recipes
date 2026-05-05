@@ -4,6 +4,26 @@ body {
     width: 800px;    
 }
 
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 h1,h3 {
     font-style: italic;
 }
@@ -11,16 +31,23 @@ h1,h3 {
 img {
     border: 3px solid rgb(247, 0, 0);
 }
+
+.description_container{
+    overflow: hidden;
+    }
 .description_container img{
     float: left;
-    margin-right: 16px
-    overflow: hidden;
+    margin-right: 10px;
     }
 
 .description_header{
-
-}
+    margin-top: -19px;
+    margin-left: 0px;
+    background-color: rgb(190, 190, 190);
+    }
 .description_body{
+    margin-top: -19px;
+    background-color: rgb(235, 235, 235);
 }
 
 .ingredient_header{
